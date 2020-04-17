@@ -1,0 +1,15 @@
+{
+  "name": "js-games",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d memorygame"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://vmetnev@github.io/memorygame",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
