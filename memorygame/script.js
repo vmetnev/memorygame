@@ -84,8 +84,8 @@ document.addEventListener("DOMContentLoaded", () => {
       let card = document.createElement("img");
       card.setAttribute("src", "img/blank.jpg");
       card.setAttribute("data-id", i);
-      card.setAttribute("width", 150);
-      card.setAttribute("height", 150);
+      card.setAttribute("width", 100);
+      card.setAttribute("height", 100);
       card.addEventListener("click", flipCard);
       grid.appendChild(card);
     }
